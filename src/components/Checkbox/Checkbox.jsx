@@ -18,7 +18,7 @@ function Checkbox({ label, state, onChange }) {
         checked={checked}
         onChange={handleCheckboxChange}
       />
-      <label>{label}</label>
+      <label className="text-red-200">{label}</label>
     </div>
   );
 }
