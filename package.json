@@ -15,7 +15,8 @@
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-tinder-card": "^1.6.4"
   },
   "scripts": {
     "dev": "vite",
@@ -26,6 +27,7 @@
     "init-msw": "msw init public/"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.6",
     "@storybook/addon-interactions": "^7.6.6",
     "@storybook/addon-links": "^7.6.6",

@@ -6,7 +6,7 @@ import * as TaskStories from '../Task/Task.stories';
 export default {
   component: TaskList,
   title: 'TaskList',
-  decorators: [(story) => <div style={{ padding: '3rem' }}>{story()}</div>],
+  decorators: [(story) => <div style={{ padding: '3rem',boxShadow:"rgba(0, 0, 0, 0.10) 0 1px 3px 0" }}>{story()}</div>],
   tags: ['autodocs'],
 };
 
